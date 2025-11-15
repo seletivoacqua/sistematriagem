@@ -131,7 +131,7 @@ class GoogleSheetsService {
   }
 }
 
-const SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbwRZ7vLEm4n8iha2GJSnIfCEjhHejRLme-OkIkp_qu6/dev';
+const SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbwQK8whrNC039L5V-7JeVLAjkdsrPM65L3YhdCPPWrF782uQv5UTdsitYMwUS9BQuyj/exec';
 const sheetsService = new GoogleSheetsService(SCRIPT_URL);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
